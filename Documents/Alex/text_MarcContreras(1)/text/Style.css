@@ -1,0 +1,135 @@
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 400%
+
+}
+
+.CercleX{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -100px;
+
+
+
+}
+
+.CercleXRed{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  text-align: center;
+
+}
+
+.CercleXBlue{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: blue;
+  text-align: center;
+
+}
+
+.CercleXGreen{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: Green;
+  text-align: center;
+
+
+}
+
+.CercleX span {
+  font-size: 170%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 15%;
+
+}
+
+.BottomsContainer {
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  top: -50px;
+}
+
+.BottomsContainer .Bottom {
+  width: 150px;
+  height: 70px;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 200%;
+  background: rgb(32, 72, 150);
+  text-align: center;
+
+}
+.BottomsContainer .Bottom span {
+  position: relative;
+  top: 15px;
+}
+
+.SpaceContainer{
+  height: 200px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+
+}
+
+.SpaceContainer .Space img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.SpaceContainer .Space span {
+  font-family: 'Pacifico', cursive;
+  font-size: 200%;
+}
+
+.caixArticle {
+  display: flex;
+  justify-content: center;
+}
+
+article .FonsGris h1 {
+  font-family: arial;
+  font-size: 150%;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  background: pink;
+  width: 1000px;
+  height: 500px;
+}
+
+.article img {
+  width: 300px;
+  float: left;
+}
+
+.FonsGris {
+  display: center;
+  flex-wrap: wrap;
+  width: 500px;
+  background: rgba(63, 76, 77, 0.45);
+}
+
+.principal {
+  display: flex;
+  flex-wrap: wrap;
+}

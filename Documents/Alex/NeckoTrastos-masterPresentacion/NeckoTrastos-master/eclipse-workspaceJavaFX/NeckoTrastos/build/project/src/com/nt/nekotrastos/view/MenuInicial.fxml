@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@StyleSheet.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nt.nekotrastos.view.MenuInicialOverviewController">
+   <children>
+      <AnchorPane layoutY="-12.0" prefHeight="394.0" prefWidth="652.0" styleClass="background">
+         <children>
+            <TextField fx:id="barraBuscadorra" layoutX="167.0" layoutY="98.0" prefHeight="24.0" prefWidth="317.0" />
+            <AnchorPane layoutX="22.0" layoutY="141.0" prefHeight="200.0" prefWidth="602.0">
+               <children>
+                  <TableView fx:id="trastosTable" layoutX="-1.0" layoutY="5.0" prefHeight="200.0" prefWidth="602.0" stylesheets="@StyleSheet.css">
+                    <columns>
+                      <TableColumn fx:id="nombreTrastoColumn" prefWidth="107.0" text="Nombre" />
+                      <TableColumn fx:id="descripcionColumn" prefWidth="150.0" text="Descripcion" />
+                        <TableColumn fx:id="precioColumn" prefWidth="86.0" text="Precio" />
+                        <TableColumn fx:id="id_propietarioColumn" prefWidth="146.0" text="Propietario" />
+                        <TableColumn fx:id="telefonoColumn" prefWidth="112.0" text="Telefono" />
+                    </columns>
+                     <styleClass>
+                        <String fx:value="background" />
+                        <String fx:value="table-row-cell" />
+                     </styleClass>
+                  </TableView>
+               </children></AnchorPane>
+            <Button fx:id="onIniciSessionButton" layoutX="515.0" layoutY="28.0" mnemonicParsing="false" onAction="#onIniciSession" prefHeight="24.0" prefWidth="118.0" text="Iniciar Sesion" />
+            <Button fx:id="misTrastosButton" layoutX="439.0" layoutY="35.0" mnemonicParsing="false" onAction="#entrarMisTrastos" prefHeight="24.0" prefWidth="118.0" text="MisTrastos" />
+            <Button fx:id="misChatsButton" layoutX="439.0" layoutY="63.0" mnemonicParsing="false" onAction="#entrarMisChats" prefHeight="24.0" prefWidth="118.0" text="MisChats" />
+            <Button fx:id="cerrarSesionButton" layoutX="22.0" layoutY="354.0" mnemonicParsing="false" onAction="#onCerrarSession" stylesheets="@StyleSheet.css" text="Cerrar Sesion" />
+            <Label fx:id="avatarLabel" alignment="CENTER_RIGHT" layoutX="396.0" layoutY="15.0" prefHeight="16.0" prefWidth="161.0" styleClass="userLaber" textAlignment="RIGHT" />
+            <ImageView fx:id="avatarImagen" fitHeight="71.0" fitWidth="71.0" layoutX="566.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" styleClass="imageView" visible="false">
+               <image>
+                  <Image url="@../Imagenes%20NK/Avatar.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="226.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes%20NK/Logo.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Button layoutX="488.0" layoutY="85.0" mnemonicParsing="false" onAction="#buscarClicked" prefHeight="26.0" prefWidth="30.0" text="🔍" />
+   </children>
+</AnchorPane>

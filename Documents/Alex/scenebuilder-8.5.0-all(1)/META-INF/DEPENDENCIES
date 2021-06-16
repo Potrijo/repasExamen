@@ -1,0 +1,53 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Maven Aether Provider
+
+
+From: 'an unknown organization'
+  - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:bundle:18.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Codehaus' (http://www.codehaus.org/)
+  - Plexus :: Component Annotations (http://plexus.codehaus.org/plexus-containers/plexus-component-annotations/) org.codehaus.plexus:plexus-component-annotations:jar:1.6
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Plexus Interpolation API (http://plexus.codehaus.org/plexus-components/plexus-interpolation) org.codehaus.plexus:plexus-interpolation:jar:1.21
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Plexus Common Utilities (http://plexus.codehaus.org/plexus-utils) org.codehaus.plexus:plexus-utils:jar:3.0.22
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Google, Inc.' (http://www.google.com)
+  - Google Guice - Core Library (https://github.com/google/guice/guice) com.google.inject:guice:jar:4.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache Commons Lang (http://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.4
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Artifact (http://maven.apache.org/ref/3.3.9/maven-artifact/) org.apache.maven:maven-artifact:jar:3.3.9
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Builder Support (http://maven.apache.org/ref/3.3.9/maven-builder-support/) org.apache.maven:maven-builder-support:jar:3.3.9
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Model (http://maven.apache.org/ref/3.3.9/maven-model/) org.apache.maven:maven-model:jar:3.3.9
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Model Builder (http://maven.apache.org/ref/3.3.9/maven-model-builder/) org.apache.maven:maven-model-builder:jar:3.3.9
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Maven Repository Metadata Model (http://maven.apache.org/ref/3.3.9/maven-repository-metadata/) org.apache.maven:maven-repository-metadata:jar:3.3.9
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Eclipse Foundation' (http://www.eclipse.org/)
+  - Aether API (http://www.eclipse.org/aether/aether-api/) org.eclipse.aether:aether-api:jar:1.0.2.v20150114
+    License: Eclipse Public License, Version 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+  - Aether Implementation (http://www.eclipse.org/aether/aether-impl/) org.eclipse.aether:aether-impl:jar:1.0.2.v20150114
+    License: Eclipse Public License, Version 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+  - Aether SPI (http://www.eclipse.org/aether/aether-spi/) org.eclipse.aether:aether-spi:jar:1.0.2.v20150114
+    License: Eclipse Public License, Version 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+  - Aether Utilities (http://www.eclipse.org/aether/aether-util/) org.eclipse.aether:aether-util:jar:1.0.2.v20150114
+    License: Eclipse Public License, Version 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+
+
+
+
